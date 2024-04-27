@@ -20,4 +20,4 @@ A nova fórmula da coleção é um menu excepcional, abrangendo uma grande varie
 
 Esta coleção digital foi criada por fãs do PlayStation 2.
 Considere **Fabricio VG**L como atual proprietário da coleção,
-e **D@niel Santos** (dev do Athena) e **Pedr0_Pap** por corrigir os códigos do **main.js**
+e **Daniel Santos** (dev do Athena) e **Pedro_Pap** por corrigir os códigos do **main.js**
