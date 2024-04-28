@@ -177,7 +177,7 @@ while(true){
         
         if(elf_to_load == 0) System.loadELF(boot_path + "APPS/BOOT/wLE.ELF");
         if(elf_to_load == 1) System.loadELF(boot_path + "null.ELF");
-        if(elf_to_load == 2) System.loadELF(boot_path + "null.ELF");
+        if(elf_to_load == 2) System.loadELF(boot_path + "APPS/SNESStation/SNES.ELF");
         if(elf_to_load == 3) System.loadELF(boot_path + "null.ELF");
         if(elf_to_load == 4) System.loadELF(boot_path + "null.ELF");
         if(elf_to_load == 5) System.loadELF(boot_path + "null.ELF");
@@ -252,51 +252,8 @@ while(true){
 
     item9.draw(item_x_pos - item9.width/2, item_y_pos - item9.height/2);
     if(selected == 9) borda.draw(item_x_pos - borda.width/2, item_y_pos - borda.height/2);
-
-    /*
-    Draw.rect(85.0f, 50.0f,  65.0f, 80.0f, Color.new(255, 255, 255, 255 ));
-    Draw.rect(30.0f, 50.0f,  50.0f, 50.0f, Color.new(255, 255, 255, 255 ));
-
-    Draw.rect(155.0f, 50.0f,  50.0f, 50.0f, Color.new(255, 255, 255, 255 ));
-
-    Draw.rect(30.0f, 50.0f,  50.0f, 50.0f, Color.new(255, 255, 255, 255 ));
-    */
-
-    // border.draw(90.0 - border.width/2, 50.0 /*- border.height/2*/);
-
-
-    //border2.draw(33.0 - border2.width/2, 100.0 /*- border2.height/2*/);
-
-
-
-    Screen.flip();
-    
-}
-
-
-while(true){
-    
-    old_pad = new_pad;
-    new_pad = Pads.get();
-
-    if(Pads.check(new_pad, Pads.START) && !Pads.check(old_pad, Pads.START) && elf_to_load == 1)
-    if(elf_to_load == 1) System.loadELF(boot_path + "APPS/SNES-Station/SNES.ELF");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    Screen.flip();
+	
+	
+	Screen.flip();
 	
 }
